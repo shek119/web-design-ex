@@ -1,0 +1,183 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+button{
+    background-color: hsl(224, 93%, 58%);
+    height: 2.34rem;
+    width: 10rem;
+    border: 1px solid hsl(224, 93%, 58%);
+    border-radius: 4px;
+    color: white;
+    margin-top: 5px; 
+    -webkit-box-shadow: 1px 1px 5px 0px rgb(107, 106, 106);
+    -moz-box-shadow: 1px 1px 5px 0px rgb(107, 106, 106);
+    box-shadow: 1px 1px 5px 0px rgb(107, 106, 106);
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+input{
+    padding: 7px;
+    width: 15rem;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid hsl(0, 0%, 75%);
+}
+
+.avatar{
+    border-radius: 60px;
+    width: 2.3rem;
+    height: auto;
+    margin-right: 5px;
+}
+
+.avatarTitle{
+    font-size: 5px;
+}
+
+.centering{
+    margin: auto 0
+}
+
+.comments{
+    font-size: 0.83rem;
+    line-height: 1.5rem
+}
+
+.content{
+    margin-top: 30px;
+}
+
+.contactInfo{
+    display: grid;
+    grid-template-columns: 1rem 1fr;
+    grid-gap: 0 1.3rem;;
+    align-items: center
+}
+
+.contactInfo > div{
+    margin-top: 5px;
+}
+
+.ctperson{
+    margin-top: 10px;
+}
+
+.divideImg{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+.ftLogo{
+    padding: 32px 32px 0 32px
+}
+
+.ftInfo{
+    padding: 5px 32px 32px 32px
+}
+
+.footer{
+    background-color:  hsl(243, 87%, 12%);
+}
+
+.footer img{
+    filter: brightness(1);
+}
+
+.footer *{
+    color: white;
+    font-size: 0.7rem;
+}
+
+.left{
+    width: 50%;
+    padding: 20px;
+}
+
+.left > * {
+    margin-top: 10px;
+}
+
+.links{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.logo img{
+    color: white;
+}
+
+.inline-grid{
+    display: grid;
+}
+
+.navBar{
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navBar .navigation{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.padding32{
+    padding: 0 32px;
+}
+
+.right{
+    width: 50%;
+    padding: 20px;
+}
+
+.socialMedia a{
+    margin-right: 20px
+}
+
+.testimonial{
+    background-color: white;
+    padding: 20px;
+    font-size: 0.7rem;
+    margin: 40px 0px;
+    width: 60%;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px -1px 5px 0px rgb(204, 204, 208);
+    -moz-box-shadow: -1px -1px 5px 0px rgb(204, 204, 208);
+    box-shadow: -1px -1px 5px 0px rgb(204, 204, 208);
+}
+
+#callForAct{
+    background-color:  hsl(238, 22%, 44%);
+    color: white;
+    padding: 32px 32px;
+}
+
+#callForAct form > input{
+    width: 75%;
+}
+
+#callForAct form > button{
+    display: block;
+    width: 12rem;
+}
+
+#pt1 .right{
+    width: 35%
+}
+
+#pt2{
+    background-color: hsl(249,75%,98%);
+}
+
+#pt2 .right{
+    width: 35%
+}
